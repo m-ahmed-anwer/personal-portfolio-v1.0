@@ -34,12 +34,12 @@ function Navbar() {
 
   return (
     <div
-      className={`sticky top-0 flex h-full w-0 flex-col justify-between border-0 border-[#2e3c51]   bg-[#151b27] sm:w-20 ${
+      className={`sticky top-0  flex h-full w-0 flex-col justify-between border-0 border-[#2e3c51]   bg-[#151b27] sm:w-20 ${
         hide && "w-20"
       } sm:border `}
     >
       <div>
-        <div className="inline-flex h-16 w-16 items-center justify-center">
+        <div className="inline-flex my-3 h-16 w-16 items-center justify-center">
           <span
             className="grid h-11 w-11 place-content-center rounded-lg bg-[#2e3c51] text-md text-gray-600 cursor-pointer"
             onClick={hiding}
