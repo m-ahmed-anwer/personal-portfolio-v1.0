@@ -4,7 +4,7 @@ function Skills() {
   return (
     <div className="w-full">
       <div className="h-screen">
-        <div className="min-w-screen  flex items-center justify-center mt-24 ">
+        <div className="w-screen flex items-center justify-center my-24 ">
           <div className="rounded-lg shadow-xl bg-gray-900 text-white md:w-3/4 mx-4 dark:text-black">
             <div className="border-b border-gray-800 px-8 py-3">
               <div className="inline-block w-3 h-3 mr-2 rounded-full bg-red-500"></div>

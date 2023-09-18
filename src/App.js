@@ -5,11 +5,24 @@ import Home from "./routes/home/home";
 import Projects from "./routes/projects/projects";
 import NotFound from "./components/404/404";
 import Skills from "./routes/skills/skills";
+import { useEffect, useState } from "react";
+import Preloader from "./components/Preloader/Preloader";
 
 function App() {
+  const [load, setLoad] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoad(false);
+    }, 3500);
+    return () => {
+      clearTimeout(timer);
+    };
+  }, []);
+
   return (
     <Routes>
-      <Route path="/" element={<Outlayer />}>
+      <Route path="/" element={load ? <Preloader /> : <Outlayer />}>
         <Route index element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/skills" element={<Skills />} />

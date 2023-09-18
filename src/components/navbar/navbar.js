@@ -5,6 +5,7 @@ import {
   CodeBracketIcon,
   Square3Stack3DIcon,
 } from "@heroicons/react/24/outline";
+import image from "../../image/mypic.png";
 import { NavbarContext } from "../../context/navbar.context";
 
 function Navbar() {
@@ -34,11 +35,11 @@ function Navbar() {
 
   return (
     <div
-      className={`sticky top-0  flex h-full w-0 flex-col justify-between border-0 border-[#2e3c51]   bg-[#151b27] sm:w-20 ${
+      className={`flex static w-0 flex-col justify-between border-0 border-[#2e3c51]   bg-[#151b27] sm:w-20 ${
         hide && "w-20"
-      } sm:border `}
+      } sm:border`}
     >
-      <div>
+      <div className="left-0">
         <div className="inline-flex my-3 h-16 w-16 items-center justify-center">
           <span
             className="grid h-11 w-11 place-content-center rounded-lg bg-[#2e3c51] text-md text-gray-600 cursor-pointer"
@@ -46,8 +47,8 @@ function Navbar() {
           >
             <img
               alt="profile"
-              src="https://www.timeoutdubai.com/cloud/timeoutdubai/2021/09/14/yvA5SpUH-IMG-Worlds-1200x800.jpg"
-              className=""
+              src={image}
+              className="object-cover rounded-xl"
             />
           </span>
         </div>

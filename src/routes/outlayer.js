@@ -5,7 +5,7 @@ import { Outlet } from "react-router-dom";
 function Outlayer() {
   return (
     <Fragment>
-      <div className="flex h-screen ">
+      <div className="flex  ">
         {/* Sidebar */}
         <Navbar />
         {/* Outlet renders the main content based on the current route */}

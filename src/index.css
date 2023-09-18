@@ -4,6 +4,7 @@
 
 body {
   font-family: "Roboto Mono", monospace;
+
   background-color: #111;
   background-image: radial-gradient(#2e3c51 2px, transparent 2px),
     radial-gradient(#2e3c51 2px, #10151d 2px);
