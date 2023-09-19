@@ -1,17 +1,16 @@
 import React from "react";
-import { Link, useHistory } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function NotFound() {
   const handleGoBack = () => {
     window.history.back(); // This will go back one step in the browser history
   };
-  const lastVisitedURL = document.referrer;
 
   return (
     <div className="w-full">
       <div className="h-screen">
         <div className="w-4/4 flex items-center justify-center my-20 ">
-          <div className="rounded-lg shadow-xl bg-gray-900 text-white md:w-3/4 mx-4 dark:text-black ">
+          <div className="rounded-lg shadow-xl bg-gray-900 text-white md:w-3/4 mx-4  ">
             <div className="border-b border-gray-800 px-8 py-3">
               <div className="inline-block w-3 h-3 mr-2 rounded-full bg-red-500"></div>
               <div className="inline-block w-3 h-3 mr-2 rounded-full bg-yellow-300"></div>
