@@ -41,20 +41,22 @@ function Navbar() {
         hide && "w-20"
       } sm:border`}
     >
-      <div className="left-0">
+      <div className="">
         <div className="inline-flex my-3 h-16 w-16 items-center justify-center">
           <span className=" cursor-pointer grid h-11 w-11 place-content-center rounded-lg bg-[#2e3c51] text-md text-gray-600">
             <img
               alt="profile"
               src={image}
-              className="object-cover rounded-xl "
+              className="object-cover rounded-xl w-fit cursor-pointer "
               onClick={hiding}
             />
           </span>
         </div>
 
         <div
-          className={`max-sm:${!hide && "hidden"} border-t border-[#2e3c51]`}
+          className={`max-sm:${
+            !hide ? "hidden" : ""
+          } border-t border-[#2e3c51]`}
         >
           <div className="px-2">
             <ul className="space-y-1 pt-4 ">
