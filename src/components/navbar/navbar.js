@@ -6,29 +6,31 @@ import {
   Square3Stack3DIcon,
 } from "@heroicons/react/24/outline";
 import image from "../../image/mypic.png";
-import { NavbarContext } from "../../context/navbar.context";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const navigation = [
     {
       title: "Home",
       icon: <HomeIcon className="h-5 w-5 opacity-75" />,
+      link: "/",
     },
     {
       title: "Skills",
       icon: <CodeBracketIcon className="h-5 w-5 opacity-75" />,
+      link: "/skills",
     },
     {
       title: "Education",
       icon: <AcademicCapIcon className="h-5 w-5 opacity-75" />,
+      link: "/education",
     },
     {
       title: "Projects",
       icon: <Square3Stack3DIcon className="h-5 w-5 opacity-75" />,
+      link: "/projects",
     },
   ];
-
-  const { setData } = useContext(NavbarContext);
 
   const [hide, setHide] = useState(false);
   const hiding = () => setHide(!hide);
@@ -61,17 +63,15 @@ function Navbar() {
               {navigation.map((index) => {
                 return (
                   <li key={index.title}>
-                    <div
-                      className="cursor-pointer mt-5 group relative flex justify-center rounded px-2 py-1.5 text-gray-500 hover:bg-gray-300 hover:text-gray-900"
-                      onClick={() => {
-                        setData(index.title);
-                      }}
+                    <Link
+                      to={index.link}
+                      className=" mt-5 group relative flex justify-center rounded px-2 py-1.5 text-gray-500 hover:bg-gray-300 hover:text-gray-900"
                     >
                       {index.icon}
                       <span className="absolute start-full top-1/2 ms-4 -translate-y-1/2 rounded bg-gray-900 px-2 py-1.5 text-md font-medium text-white opacity-0 group-hover:opacity-100">
                         {index.title}
                       </span>
-                    </div>
+                    </Link>
                   </li>
                 );
               })}
