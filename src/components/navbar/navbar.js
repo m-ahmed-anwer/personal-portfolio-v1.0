@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import {
   HomeIcon,
   AcademicCapIcon,
@@ -32,14 +32,9 @@ function Navbar() {
     },
   ];
 
-  const [hide, setHide] = useState(false);
-  const hiding = () => setHide(!hide);
-
   return (
     <div
-      className={`flex static w-0 flex-col justify-between border-0 border-[#2e3c51]   bg-[#151b27] sm:w-20 ${
-        hide && "w-20"
-      } sm:border`}
+      className={`flex static w-0 flex-col justify-between border-0 border-[#2e3c51]   bg-[#151b27] sm:w-20 sm:border`}
     >
       <div className="">
         <div className="inline-flex my-3 h-16 w-16 items-center justify-center">
@@ -48,16 +43,11 @@ function Navbar() {
               alt="profile"
               src={image}
               className="object-cover rounded-xl w-fit cursor-pointer "
-              onClick={hiding}
             />
           </span>
         </div>
 
-        <div
-          className={`max-sm:${
-            !hide ? "hidden" : ""
-          } border-t border-[#2e3c51]`}
-        >
+        <div className={` border-t border-[#2e3c51]`}>
           <div className="px-2">
             <ul className="space-y-1 pt-4 ">
               {navigation.map((index) => {
