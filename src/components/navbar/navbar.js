@@ -43,14 +43,12 @@ function Navbar() {
     >
       <div className="left-0">
         <div className="inline-flex my-3 h-16 w-16 items-center justify-center">
-          <span
-            className="grid h-11 w-11 place-content-center rounded-lg bg-[#2e3c51] text-md text-gray-600 cursor-pointer"
-            onClick={hiding}
-          >
+          <span className=" cursor-pointer grid h-11 w-11 place-content-center rounded-lg bg-[#2e3c51] text-md text-gray-600">
             <img
               alt="profile"
               src={image}
-              className="object-cover rounded-xl"
+              className="object-cover rounded-xl "
+              onClick={hiding}
             />
           </span>
         </div>

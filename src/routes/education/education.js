@@ -22,14 +22,14 @@ function Education() {
       degree: "BSc(Hons) in Computer Science and Software Engineering",
       year: "2022-2025",
       location: "Colombo, Sri Lanka",
-      honors: "Deans List Recognized and Maintain gpa above 3.6",
+      honors: "Deans List Recognized and Maintained above 3.6 gpa",
     },
   ];
   return (
     <div className="w-full">
-      <div className="h-screen">
-        <div className="w-screen flex items-center justify-center my-24 ">
-          <div className="rounded-lg shadow-xl bg-gray-900 text-white md:w-3/4 mx-4 dark:text-black">
+      <div className="">
+        <div className="w-4/4  flex items-center justify-center my-20 ">
+          <div className="rounded-lg shadow-xl bg-gray-900 text-white md:w-3/4 mx-4 dark:text-black ">
             <div className="border-b border-gray-800 px-8 py-3">
               <div className="inline-block w-3 h-3 mr-2 rounded-full bg-red-500"></div>
               <div className="inline-block w-3 h-3 mr-2 rounded-full bg-yellow-300"></div>
