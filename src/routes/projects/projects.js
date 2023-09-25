@@ -19,7 +19,7 @@ function Projects() {
 
       demoLink: "https://job-nest.netlify.app/",
       githubRepository: "https://github.com/m-ahmed-anwer/Job-Nest",
-      dateOfCompletion: "Oct 2023",
+      dateOfCompletion: "Sep 2023",
     },
     {
       id: 2,
