@@ -38,7 +38,7 @@ function AboutMe() {
 
                 <p className="my-2">
                   &nbsp;&nbsp;&nbsp;&nbsp;name:{" "}
-                  <span className="text-yellow-300 text-lg ">
+                  <span className="text-yellow-300  ">
                     'Ahmed Anwer'
                   </span>
                   ,
@@ -46,14 +46,14 @@ function AboutMe() {
 
                 <p className="my-2">
                   &nbsp;&nbsp;&nbsp;&nbsp;position:{" "}
-                  <span className="text-yellow-300 text-lg">
+                  <span className="text-yellow-300 ">
                     'fullstack-developer'
                   </span>
                   ,
                 </p>
                 <p className="my-2">
                   &nbsp;&nbsp;&nbsp;&nbsp;bio:{" "}
-                  <span className="text-yellow-300 text-lg">
+                  <span className="text-yellow-300 ">
                     'I am a passionate fullstack developer with a love for
                     creating web applications that solve real-world problems. I
                     have experience in both front-end and back-end technologies,
@@ -79,12 +79,12 @@ function AboutMe() {
 
                 <p className="my-2">
                   &nbsp;&nbsp;&nbsp;&nbsp;email:{" "}
-                  <span className="text-yellow-300 text-lg">
+                  <span className="text-yellow-300 ">
                     '
                     <Link
                       to="mailto:ahmedanwer0094@gmail.com"
                       target="_blank"
-                      className="text-yellow-300 text-lg hover:underline focus:border-none"
+                      className="text-yellow-300  hover:underline focus:border-none"
                     >
                       ahmedanwer0094@gmail.com
                     </Link>
@@ -94,12 +94,12 @@ function AboutMe() {
                 </p>
                 <p className="my-2">
                   &nbsp;&nbsp;&nbsp;&nbsp;phone:{" "}
-                  <span className="text-yellow-300 text-lg">
+                  <span className="text-yellow-300 ">
                     '
                     <Link
                       to="tel:+94768242884"
                       target="_blank"
-                      className="text-yellow-300 text-lg hover:underline focus:border-none"
+                      className="text-yellow-300  hover:underline focus:border-none"
                     >
                       +94768242884
                     </Link>
@@ -109,12 +109,12 @@ function AboutMe() {
                 </p>
                 <p className="my-2">
                   &nbsp;&nbsp;&nbsp;&nbsp;linkedin:{" "}
-                  <span className="text-yellow-300 text-lg">
+                  <span className="text-yellow-300 ">
                     '
                     <Link
                       to="https://www.linkedin.com/in/ahmed-anwer-/"
                       target="_blank"
-                      className="text-yellow-300 text-lg hover:underline focus:border-none"
+                      className="text-yellow-300  hover:underline focus:border-none"
                     >
                       https://www.linkedin.com/in/ahmed-anwer-/
                     </Link>
@@ -124,12 +124,12 @@ function AboutMe() {
                 </p>
                 <p className="my-2">
                   &nbsp;&nbsp;&nbsp;&nbsp;github:{" "}
-                  <span className="text-yellow-300 text-lg">
+                  <span className="text-yellow-300 ">
                     '
                     <Link
                       to="https://github.com/m-ahmed-anwer"
                       target="_blank"
-                      className="text-yellow-300 text-lg hover:underline focus:border-none"
+                      className="text-yellow-300  hover:underline focus:border-none"
                     >
                       https://github.com/m-ahmed-anwer
                     </Link>
@@ -139,12 +139,12 @@ function AboutMe() {
                 </p>
                 <p className="my-2">
                   &nbsp;&nbsp;&nbsp;&nbsp;cv:{" "}
-                  <span className="text-yellow-300 text-lg">
+                  <span className="text-yellow-300 ">
                     '
                     <Link
                       to="https://drive.google.com/file/d/1Dmn-xDORrMVfymuhhEW16jpkY_et8ZkT/view"
                       target="_blank"
-                      className="text-yellow-300 text-lg hover:underline focus:border-none"
+                      className="text-yellow-300  hover:underline focus:border-none"
                     >
                       https://drive.google.com/file/d/1Dmn-xDORrMVfymuhhEW16jpkY_et8ZkT/view
                     </Link>
@@ -154,11 +154,11 @@ function AboutMe() {
                 </p>
                 <p className="my-2">
                   &nbsp;&nbsp;&nbsp;&nbsp;website:{" "}
-                  <span className="text-yellow-300 text-lg">
+                  <span className="text-yellow-300 ">
                     '
                     <Link
                       to="https://ahmed-anwer.netlify.app/"
-                      className="text-yellow-300 text-lg hover:underline focus:border-none"
+                      className="text-yellow-300  hover:underline focus:border-none"
                     >
                       https://ahmed-anwer.netlify.app
                     </Link>

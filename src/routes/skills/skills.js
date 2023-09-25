@@ -31,7 +31,7 @@ function Skills() {
                   <p>
                     &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;languages:
                     {" ["}
-                    <span className="text-yellow-300 text-lg">
+                    <span className="text-yellow-300 ">
                       {"'JavaScript', 'Java', 'PHP', 'CSS/SCSS', 'SQL', 'HTML'"}
                     </span>
                     {"],"}
@@ -42,7 +42,7 @@ function Skills() {
                     &nbsp;&nbsp;
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;libraries/frameworks:
                     {" ["}
-                    <span className="text-yellow-300 text-lg">
+                    <span className="text-yellow-300 ">
                       {
                         "'React.js', 'node.js', 'express.js', 'React-Native', 'Tailwind', 'Bootstrap', 'jQuery'"
                       }
@@ -54,7 +54,7 @@ function Skills() {
                   <p>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;other:
                     {" ["}
-                    <span className="text-yellow-300 text-lg">
+                    <span className="text-yellow-300 ">
                       {
                         "'Git', 'Figma', 'Firebase', 'Docker', 'Android Studio', 'Azure Data Studio'"
                       }
@@ -70,7 +70,7 @@ function Skills() {
                   <p>
                     &nbsp;&nbsp;
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;web-development:
-                    <span className="text-yellow-300 text-lg">
+                    <span className="text-yellow-300 ">
                       {
                         " 'Build highly responsive web applications using the most advanced and cutting-edge technologies.'"
                       }
@@ -81,7 +81,7 @@ function Skills() {
                   <p>
                     &nbsp;&nbsp;
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;app-development:
-                    <span className="text-yellow-300 text-lg">
+                    <span className="text-yellow-300 ">
                       {
                         " 'Develop well designed, user-friendly and interactive mobile apps for both IOS and Android.'"
                       }
