@@ -6,6 +6,24 @@ function Projects() {
   const project = [
     {
       id: 1,
+      name: "Car Service Management System",
+      description:
+        "Crafted a comprehensive full-stack web application using ReactJS and NodeJS, enabling users to schedule car services seamlessly.",
+      technologiesUsed: `
+        'React.js',
+        'Springboot',
+        'MYSQL',
+        'Tailwind',
+        'Node.js',
+        'Axios',
+      `,
+
+      demoLink: "https://autoprocare.netlify.app/",
+      githubRepository: "https://github.com/m-ahmed-anwer/car-service",
+      dateOfCompletion: "Nov 2023",
+    },
+    {
+      id: 2,
       name: "Online Job Posting Website",
       description:
         "Developed a full-stack React web application that can job seeker find a job and a company can post their career vacancies to the website.",
@@ -22,7 +40,7 @@ function Projects() {
       dateOfCompletion: "Sep 2023",
     },
     {
-      id: 2,
+      id: 3,
       name: "Online Banking Mobile Application",
       description:
         "Developed an Android mobile application that can a user to send, receive money in between friends and loved ones. ",
@@ -33,7 +51,7 @@ function Projects() {
       dateOfCompletion: "Jun 2023",
     },
     {
-      id: 3,
+      id: 4,
       name: "Car Posting Website",
       description:
         "Developed a Web application that showcasing and publishing pre-owned cars 🏁",
@@ -50,7 +68,7 @@ function Projects() {
       dateOfCompletion: "Feb 2023",
     },
     {
-      id: 4,
+      id: 5,
       name: "Arts Showcasing Native Mobile Application",
       description:
         "Developed an Mobile application in React native forshowcasing the Art works of a person by inserting all their details",
@@ -62,7 +80,7 @@ function Projects() {
     },
     ,
     {
-      id: 5,
+      id: 6,
       name: "Movie Management Web Application",
       description:
         "Developed a Online Movie Management Web application with using with CRUD operations to handle movies",
