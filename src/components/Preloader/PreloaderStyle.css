@@ -17,7 +17,7 @@
 }
 
 .initial {
-  background: linear-gradient(45deg, #262d38, #02001a);
+  background: linear-gradient(45deg, #02001f, #1f1b4e);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1288,5 +1288,100 @@
   100% {
     transform: scale(1);
     background: #2e7d32;
+  }
+}
+@media screen and (min-width: 20em) {
+  body {
+    font-size: 80%;
+  }
+}
+@media screen and (min-width: 40em) {
+  body {
+    font-size: 100%;
+  }
+}
+@media screen and (min-width: 60em) {
+  body {
+    font-size: 110%;
+  }
+}
+@media screen and (min-width: 70em) {
+  body {
+    font-size: 120%;
+  }
+}
+@media screen and (min-width: 80em) {
+  body {
+    font-size: 130%;
+  }
+}
+@media screen and (min-width: 90em) {
+  body {
+    font-size: 140%;
+  }
+}
+@media screen and (min-width: 100em) {
+  body {
+    font-size: 150%;
+  }
+}
+@media screen and (min-width: 110em) {
+  body {
+    font-size: 160%;
+  }
+}
+@media screen and (min-width: 120em) {
+  body {
+    font-size: 170%;
+  }
+}
+@media screen and (min-width: 130em) {
+  body {
+    font-size: 180%;
+  }
+}
+@media screen and (min-width: 140em) {
+  body {
+    font-size: 190%;
+  }
+}
+@media screen and (min-width: 150em) {
+  body {
+    font-size: 200%;
+  }
+}
+@media screen and (min-width: 160em) {
+  body {
+    font-size: 210%;
+  }
+}
+@media screen and (min-width: 170em) {
+  body {
+    font-size: 225%;
+  }
+}
+@media screen and (min-width: 180em) {
+  body {
+    font-size: 240%;
+  }
+}
+@media screen and (min-width: 190em) {
+  body {
+    font-size: 255%;
+  }
+}
+@media screen and (min-width: 200em) {
+  body {
+    font-size: 270%;
+  }
+}
+@media screen and (min-width: 225em) {
+  body {
+    font-size: 285%;
+  }
+}
+@media screen and (min-width: 250em) {
+  body {
+    font-size: 300%;
   }
 }

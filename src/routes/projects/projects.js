@@ -19,7 +19,7 @@ function Projects() {
 
       demoLink: "https://job-nest.netlify.app/",
       githubRepository: "https://github.com/m-ahmed-anwer/Job-Nest",
-      dateOfCompletion: "Oct 2023",
+      dateOfCompletion: "Sep 2023",
     },
     {
       id: 2,
@@ -105,7 +105,7 @@ function Projects() {
                         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{"{"}</p>
                         <p>
                           &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name:
-                          <span className="text-yellow-300 text-lg">
+                          <span className="text-yellow-300">
                             {`'${index.name}'`}
                           </span>
                           ,
@@ -114,7 +114,7 @@ function Projects() {
                           &nbsp;&nbsp;
                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;description:
                           {" ["}
-                          <span className="text-yellow-300 text-lg">
+                          <span className="text-yellow-300">
                             {`'${index.description}'`}
                           </span>
                           {"],"} ,
@@ -123,7 +123,7 @@ function Projects() {
                           &nbsp;&nbsp;
                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;technologiesUsed:
                           {" ["}
-                          <span className="text-yellow-300 text-lg">
+                          <span className="text-yellow-300">
                             {`${index.technologiesUsed}`}
                           </span>
                           {"],"}
@@ -132,7 +132,7 @@ function Projects() {
                           &nbsp;&nbsp;
                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;demoLink:
                           <Link to={index.demoLink} target="_blank">
-                            <span className="cursor-pointer  hover:underline focus:border-none text-yellow-300 text-lg">
+                            <span className="cursor-pointer  hover:underline focus:border-none text-yellow-300">
                               {`'${index.demoLink}'`}
                             </span>
                           </Link>
@@ -142,7 +142,7 @@ function Projects() {
                           &nbsp;&nbsp;
                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;githubRepository:
                           <Link to={index.githubRepository} target="_blank">
-                            <span className=" hover:underline focus:border-none cursor-pointer text-yellow-300 text-lg">
+                            <span className=" hover:underline focus:border-none cursor-pointer text-yellow-300">
                               {`'${index.githubRepository}'`}
                             </span>
                           </Link>
@@ -151,7 +151,7 @@ function Projects() {
                         <p>
                           &nbsp;&nbsp;
                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dateOfCompletion:
-                          <span className="text-yellow-300 text-lg">
+                          <span className="text-yellow-300">
                             {`'${index.dateOfCompletion}'`}
                           </span>
                           ,

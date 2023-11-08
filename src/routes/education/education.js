@@ -57,34 +57,34 @@ function Education() {
                         <p>
                           &nbsp;&nbsp;
                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;institution:
-                          <span className="text-yellow-300 text-lg">
+                          <span className="text-yellow-300 ">
                             {`'${index.institution}'`}
                           </span>
                         </p>
                         <p>
                           &nbsp;&nbsp;
                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;degree:
-                          <span className="text-yellow-300 text-lg">
+                          <span className="text-yellow-300 ">
                             {`'${index.degree}'`}
                           </span>
                         </p>
                         <p>
                           &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;year:
-                          <span className="text-yellow-300 text-lg">
+                          <span className="text-yellow-300 ">
                             {`'${index.year}'`}
                           </span>
                         </p>
                         <p>
                           &nbsp;&nbsp;
                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;location:
-                          <span className="text-yellow-300 text-lg">
+                          <span className="text-yellow-300 ">
                             {`'${index.location}'`}
                           </span>
                         </p>
                         <p>
                           &nbsp;&nbsp;
                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;honors:
-                          <span className="text-yellow-300 text-lg">
+                          <span className="text-yellow-300 ">
                             {`'${index.honors}'`}
                           </span>
                         </p>
