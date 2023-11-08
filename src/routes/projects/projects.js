@@ -131,11 +131,10 @@ function Projects() {
                         <p>
                           &nbsp;&nbsp;
                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;description:
-                          {" ["}
                           <span className="text-yellow-300">
                             {`'${index.description}'`}
                           </span>
-                          {"],"} ,
+                          ,
                         </p>
                         <p>
                           &nbsp;&nbsp;
