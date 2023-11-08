@@ -7,6 +7,7 @@ import Navigation from "../../components/Navigation-Animation/Navigation";
 function AboutMe() {
   return (
     <>
+      
       <Navigation />
       <div className="w-full">
         <div className="">
