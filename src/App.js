@@ -8,6 +8,7 @@ import Skills from "./routes/skills/skills";
 import { useEffect, useState } from "react";
 import Preloader from "./components/Preloader/Preloader";
 import Education from "./routes/education/education";
+import Blogs from "./routes/blogs/Blogs";
 
 function App() {
   const [load, setLoad] = useState(true);
@@ -27,6 +28,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/skills" element={<Skills />} />
+        <Route path="/blogs" element={<Blogs />} />
         <Route path="/education" element={<Education />} />
         <Route path="*" element={<NotFound />} />
       </Route>

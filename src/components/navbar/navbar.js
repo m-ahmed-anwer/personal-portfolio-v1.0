@@ -4,6 +4,7 @@ import {
   AcademicCapIcon,
   CodeBracketIcon,
   Square3Stack3DIcon,
+  PencilIcon,
 } from "@heroicons/react/24/outline";
 import image from "../../image/mypic.png";
 import { Link } from "react-router-dom";
@@ -29,6 +30,11 @@ function Navbar() {
       title: "Projects",
       icon: <Square3Stack3DIcon className="h-5 w-5 opacity-75" />,
       link: "/projects",
+    },
+    {
+      title: "Blogs",
+      icon: <PencilIcon className="h-5 w-5 opacity-75" />,
+      link: "/blogs",
     },
   ];
 
