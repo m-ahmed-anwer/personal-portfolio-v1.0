@@ -1,4 +1,9 @@
 import React from "react";
+import image1 from "../../image/Picture1.png";
+import image2 from "../../image/Picture2.png";
+import image3 from "../../image/Picture3.png";
+import image4 from "../../image/Picture4.png";
+
 import Navigation from "../../components/Navigation-Animation/Navigation";
 
 function Blogs() {
@@ -26,66 +31,41 @@ function Blogs() {
                   {"{"}
                 </p>
                 <div className="my-2">
-                  &nbsp;&nbsp;&nbsp;&nbsp;technologies:{" ["}
+                  &nbsp;&nbsp;&nbsp;&nbsp;food-festival:{" ["}
                   <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{"{"}</p>
-                  <p>
-                    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;languages:
-                    {" ["}
-                    <span className="text-yellow-300 ">
-                      {"'JavaScript', 'Java', 'PHP', 'CSS/SCSS', 'SQL', 'HTML'"}
+                  <p className="flex">
+                    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gallery:
+                    <span className="group ">
+                      <img
+                        src={image1}
+                        height={250}
+                        width={250}
+                        className="rounded-lg m-4 flex justify-center"
+                        alt="profile1"
+                      />
+                      <img
+                        src={image2}
+                        height={250}
+                        width={250}
+                        className="rounded-lg m-4 flex justify-center"
+                        alt="profile2"
+                      />
+                      <img
+                        src={image3}
+                        height={250}
+                        width={250}
+                        className="rounded-lg m-4  flex justify-center"
+                        alt="profile3"
+                      />
+                      <img
+                        src={image4}
+                        height={250}
+                        width={250}
+                        className="rounded-lg m-4 flex justify-center"
+                        alt="profile4"
+                      />
                     </span>
-                    {"],"}
-                  </p>
-                  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{"},"}</p>
-                  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{"{"}</p>
-                  <p>
-                    &nbsp;&nbsp;
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;libraries/frameworks:
-                    {" ["}
-                    <span className="text-yellow-300 ">
-                      {
-                        "'React.js', 'node.js', 'express.js', 'React-Native', 'Tailwind', 'Bootstrap', 'jQuery'"
-                      }
-                    </span>
-                    {"],"}
-                  </p>
-                  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{"},"}</p>
-                  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{"{"}</p>
-                  <p>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;other:
-                    {" ["}
-                    <span className="text-yellow-300 ">
-                      {
-                        "'Git', 'Figma', 'Firebase', 'Docker', 'Android Studio', 'Azure Data Studio'"
-                      }
-                    </span>
-                    {"],"}
-                  </p>
-                  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{"},"}</p>
-                  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{"]"}</p>
-                </div>
-                <div className="my-2">
-                  &nbsp;&nbsp;&nbsp;&nbsp;services:{" ["}
-                  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{"{"}</p>
-                  <p>
-                    &nbsp;&nbsp;
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;web-development:
-                    <span className="text-yellow-300 ">
-                      {
-                        " 'Build highly responsive web applications using the most advanced and cutting-edge technologies.'"
-                      }
-                    </span>
-                  </p>
-                  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{"},"}</p>
-                  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{"{"}</p>
-                  <p>
-                    &nbsp;&nbsp;
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;app-development:
-                    <span className="text-yellow-300 ">
-                      {
-                        " 'Develop well designed, user-friendly and interactive mobile apps for both IOS and Android.'"
-                      }
-                    </span>
+                    {","}
                   </p>
                   <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{"},"}</p>
                 </div>
