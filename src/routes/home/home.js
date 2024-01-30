@@ -43,19 +43,18 @@ function AboutMe() {
 
                 <p className="my-2">
                   &nbsp;&nbsp;&nbsp;&nbsp;position:{" "}
-                  <span className="text-yellow-300 ">
-                    'fullstack-developer'
-                  </span>
-                  ,
+                  <span className="text-yellow-300 ">'software-engineer'</span>,
                 </p>
                 <p className="my-2">
                   &nbsp;&nbsp;&nbsp;&nbsp;bio:{" "}
                   <span className="text-yellow-300 ">
-                    'I am a passionate fullstack developer with a love for
-                    creating web applications that solve real-world problems. I
-                    have experience in both front-end and back-end technologies,
-                    and I enjoy collaborating with others to bring projects to
-                    life.'
+                    'Enthusiastic final-year software engineering student with a
+                    solid foundation in both theoretical principles and
+                    practical implementations. Skilled in numerous programming
+                    languages and committed to providing valuable insights and
+                    solutions to real-world software challenges. Excited to
+                    apply academic knowledge and hands-on experience in a
+                    professional environment.'
                   </span>
                   ,
                 </p>
