@@ -7,7 +7,6 @@ import Navigation from "../../components/Navigation-Animation/Navigation";
 function AboutMe() {
   return (
     <>
-      
       <Navigation />
       <div className="w-full">
         <div className="">
@@ -39,10 +38,7 @@ function AboutMe() {
 
                 <p className="my-2">
                   &nbsp;&nbsp;&nbsp;&nbsp;name:{" "}
-                  <span className="text-yellow-300  ">
-                    'Ahmed Anwer'
-                  </span>
-                  ,
+                  <span className="text-yellow-300  ">'Ahmed Anwer'</span>,
                 </p>
 
                 <p className="my-2">
@@ -143,11 +139,11 @@ function AboutMe() {
                   <span className="text-yellow-300 ">
                     '
                     <Link
-                      to="https://drive.google.com/file/d/1Dmn-xDORrMVfymuhhEW16jpkY_et8ZkT/view"
+                      to="https://drive.google.com/file/d/1aJcvn6v8lQPPPYrDGsQeqP-Y2LEaeCLy/view?usp=sharing"
                       target="_blank"
                       className="text-yellow-300  hover:underline focus:border-none"
                     >
-                      https://drive.google.com/file/d/1Dmn-xDORrMVfymuhhEW16jpkY_et8ZkT/view
+                      https://drive.google.com/file/d/1aJcvn6v8lQPPPYrDGsQeqP-Y2LEaeCLy/view?usp=sharing
                     </Link>
                     '
                   </span>
