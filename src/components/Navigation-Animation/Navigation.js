@@ -62,7 +62,7 @@ function Navigation(props) {
         checked={isChecked}
         onChange={handleToggle}
       />
-      <label for="page-nav-toggle">
+      <label htmlFor="page-nav-toggle">
         <svg className="icon--menu-toggle" viewBox="0 0 60 30">
           <g className="icon-group">
             <g className="icon--menu">
