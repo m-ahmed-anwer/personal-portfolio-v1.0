@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../image/mypic.PNG";
+import image from "../../image/mypic.png";
 import { Link } from "react-router-dom";
 import Navigation from "../../components/Navigation-Animation/Navigation";
 
