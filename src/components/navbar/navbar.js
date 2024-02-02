@@ -6,7 +6,7 @@ import {
   Square3Stack3DIcon,
   PencilIcon,
 } from "@heroicons/react/24/outline";
-import image from "../../image/mypic.PNG";
+import image from "../../image/mypic.png";
 import { Link } from "react-router-dom";
 
 function Navbar() {
