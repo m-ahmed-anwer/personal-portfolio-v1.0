@@ -32,7 +32,9 @@ function Skills() {
                     &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;languages:
                     {" ["}
                     <span className="text-yellow-300 ">
-                      {"'JavaScript', 'Java', 'PHP', 'CSS/SCSS', 'SQL', 'HTML'"}
+                      {
+                        "'JavaScript', 'Typescript', 'Java', 'PHP', 'CSS/SCSS', 'SQL', 'HTML'"
+                      }
                     </span>
                     {"],"}
                   </p>
@@ -44,7 +46,7 @@ function Skills() {
                     {" ["}
                     <span className="text-yellow-300 ">
                       {
-                        "'React.js', 'node.js', 'express.js', 'React-Native', 'Tailwind', 'Bootstrap', 'jQuery'"
+                        "'React.js', 'Next.js', 'node.js', 'express.js', 'React-Native', 'Tailwind', 'Bootstrap', 'jQuery'"
                       }
                     </span>
                     {"],"}
