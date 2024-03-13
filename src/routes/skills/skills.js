@@ -33,7 +33,7 @@ function Skills() {
                     {" ["}
                     <span className="text-yellow-300 ">
                       {
-                        "'JavaScript', 'Typescript', 'Java', 'PHP', 'CSS/SCSS', 'SQL', 'HTML'"
+                        "'JavaScript', 'Typescript', 'Java', 'PHP', 'CSS/SCSS', 'C', 'Swift'"
                       }
                     </span>
                     {"],"}

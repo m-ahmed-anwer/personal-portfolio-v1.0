@@ -11,18 +11,25 @@ function Education() {
       honors: "O/L *A's - Maths, ICT, English",
     },
     {
-      institution: "SLIIT Academy",
+      institution: "SLIIT City Uni",
       degree: "Foundation Certification in Information Technology",
-      year: "2021",
+      year: "2021 Jan- Dec",
       location: "Colombo, Sri Lanka",
       honors: "Passed in Grade A",
     },
     {
-      institution: "University of Bedforshire",
-      degree: "BSc(Hons) in Computer Science and Software Engineering",
-      year: "2022-2025",
+      institution: "SLIIT City Uni",
+      degree: "Higher National Diploma in Information Technology",
+      year: "2022 Jan - 2023 Dec",
       location: "Colombo, Sri Lanka",
-      honors: "Deans List Recognized and Maintained above 3.6 gpa",
+      honors: "CGPA : 3.5/4.0",
+    },
+    {
+      institution: "University of Bedforshire || SLIIT",
+      degree: "BSc(Hons) in Computer Science and Software Engineering",
+      year: "2024 Jan - 2025 Jan",
+      location: "Colombo, Sri Lanka",
+      honors: "Reading",
     },
   ];
   return (
