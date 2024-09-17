@@ -6,6 +6,64 @@ function Projects() {
   const project = [
     {
       id: 1,
+      name: "DotCall: A Mobile Application Enhancing Communication",
+      description:
+        "Developed a Web application that showcasing and publishing pre-owned cars 🏁",
+      technologiesUsed: `
+        'IOS Swift',
+        'Android Java',
+        'NodeJS',
+        'Firebase Authentication',
+        'Django',
+        'MongoDB',
+      `,
+
+      demoLink: "",
+      githubRepository: [
+        "https://github.com/m-ahmed-anwer/DotCall-IOS",
+        "https://github.com/m-ahmed-anwer/DotCall-Android",
+        "https://github.com/m-ahmed-anwer/DotCall-Backend",
+        "https://github.com/m-ahmed-anwer/DotCall-Summarizer",
+      ],
+      dateOfCompletion: "Aug 2024",
+    },
+    {
+      id: 2,
+      name: "Lanka Hardware Hub",
+      description:
+        "Developed a Web application that showcasing and publishing pre-owned cars 🏁",
+      technologiesUsed: `
+        'React Native',
+        'React.js',
+        'NodeJS',
+        'MongoDB',
+      `,
+
+      demoLink: "",
+      githubRepository: ["https://github.com/orgs/SPPM-GP-15/repositories"],
+      dateOfCompletion: "Aug 2024",
+    },
+    {
+      id: 3,
+      name: "Tomato Mystery Challenge",
+      description:
+        "Developed a Web application that showcasing and publishing pre-owned cars 🏁",
+      technologiesUsed: `
+        'React Native',
+        'javaScript',
+        'NodeJS',
+        'MongoDB',
+      `,
+
+      demoLink: "",
+      githubRepository: [
+        "https://github.com/m-ahmed-anwer/tomato-challenge",
+        "https://github.com/m-ahmed-anwer/tomato-challenge-backend",
+      ],
+      dateOfCompletion: "Feb 2023",
+    },
+    {
+      id: 4,
       name: "Car Service Management System",
       description:
         "Crafted a comprehensive full-stack web application using ReactJS and NodeJS, enabling users to schedule car services seamlessly.",
@@ -19,12 +77,12 @@ function Projects() {
       `,
 
       demoLink: "https://autoprocare.netlify.app/",
-      githubRepository: "https://github.com/m-ahmed-anwer/car-service",
+      githubRepository: ["https://github.com/m-ahmed-anwer/car-service"],
       dateOfCompletion: "Nov 2023",
     },
     {
-      id: 2,
-      name: "Online Job Posting Website",
+      id: 5,
+      name: "Job Nest - Online Job Posting Website",
       description:
         "Developed a full-stack React web application that can job seeker find a job and a company can post their career vacancies to the website.",
       technologiesUsed: `
@@ -36,22 +94,22 @@ function Projects() {
       `,
 
       demoLink: "https://job-nest.netlify.app/",
-      githubRepository: "https://github.com/m-ahmed-anwer/Job-Nest",
+      githubRepository: ["https://github.com/m-ahmed-anwer/Job-Nest"],
       dateOfCompletion: "Sep 2023",
     },
     {
-      id: 3,
+      id: 6,
       name: "Online Banking Mobile Application",
       description:
         "Developed an Android mobile application that can a user to send, receive money in between friends and loved ones. ",
       technologiesUsed: `"Android Stduio", "Firebase", "SendGrid", "Java"`,
 
       demoLink: "",
-      githubRepository: "https://github.com/m-ahmed-anwer/bank-app",
+      githubRepository: ["https://github.com/m-ahmed-anwer/bank-app"],
       dateOfCompletion: "Jun 2023",
     },
     {
-      id: 4,
+      id: 7,
       name: "Car Posting Website",
       description:
         "Developed a Web application that showcasing and publishing pre-owned cars 🏁",
@@ -64,30 +122,30 @@ function Projects() {
       `,
 
       demoLink: "https://car-post.netlify.app",
-      githubRepository: "https://github.com/m-ahmed-anwer/Car-Post",
+      githubRepository: ["https://github.com/m-ahmed-anwer/Car-Post"],
       dateOfCompletion: "Feb 2023",
     },
     {
-      id: 5,
+      id: 8,
       name: "Arts Showcasing Native Mobile Application",
       description:
         "Developed an Mobile application in React native forshowcasing the Art works of a person by inserting all their details",
       technologiesUsed: `'React Native', 'javaScript', 'Firebase'`,
 
       demoLink: "",
-      githubRepository: "https://github.com/m-ahmed-anwer/Art-Gallery",
+      githubRepository: ["https://github.com/m-ahmed-anwer/Art-Gallery"],
       dateOfCompletion: "Jan 2023",
     },
     ,
     {
-      id: 6,
+      id: 9,
       name: "Movie Management Web Application",
       description:
         "Developed a Online Movie Management Web application with using with CRUD operations to handle movies",
       technologiesUsed: `'Node.js', 'Express.js', 'EJS', 'MySQL', 'Bootstrap'`,
 
       demoLink: "",
-      githubRepository: "https://github.com/m-ahmed-anwer/movie-management",
+      githubRepository: ["https://github.com/m-ahmed-anwer/movie-management"],
       dateOfCompletion: "Oct 2022",
     },
   ];
@@ -146,27 +204,38 @@ function Projects() {
                           </span>
                           {"],"}
                         </p>
-                        <p>
-                          &nbsp;&nbsp;
-                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;demoLink:
-                          <Link to={index.demoLink} target="_blank">
-                            <span className="cursor-pointer  hover:underline focus:border-none text-yellow-300">
-                              {`'${index.demoLink}'`}
-                            </span>
-                          </Link>
-                          ,
-                          
-                        </p>
+                        {index.demoLink && (
+                          <p>
+                            &nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;demoLink:
+                            <Link to={index.demoLink} target="_blank">
+                              <span className="cursor-pointer  hover:underline focus:border-none text-yellow-300">
+                                {`'${index.demoLink}'`}
+                              </span>
+                            </Link>
+                            ,
+                          </p>
+                        )}
+
                         <p>
                           &nbsp;&nbsp;
                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;githubRepository:
-                          <Link to={index.githubRepository} target="_blank">
-                            <span className=" hover:underline focus:border-none cursor-pointer text-yellow-300">
-                              {`'${index.githubRepository}'`}
-                            </span>
-                          </Link>
-                          ,
+                          {index.githubRepository.length > 0 ? (
+                            index.githubRepository.map((repo, i) => (
+                              <React.Fragment key={i}>
+                                <Link to={repo} target="_blank">
+                                  <span className="hover:underline focus:border-none cursor-pointer text-yellow-300">
+                                    {`'${repo}'`}
+                                  </span>
+                                </Link>
+                                {i < index.githubRepository.length - 1 && ", "}
+                              </React.Fragment>
+                            ))
+                          ) : (
+                            <span>No repositories available</span>
+                          )}
                         </p>
+
                         <p>
                           &nbsp;&nbsp;
                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dateOfCompletion:

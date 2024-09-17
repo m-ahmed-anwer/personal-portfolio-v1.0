@@ -31,11 +31,6 @@ function Navbar() {
       icon: <Square3Stack3DIcon className="h-5 w-5 opacity-75" />,
       link: "/projects",
     },
-    {
-      title: "Blogs",
-      icon: <PencilIcon className="h-5 w-5 opacity-75" />,
-      link: "/blogs",
-    },
   ];
 
   return (

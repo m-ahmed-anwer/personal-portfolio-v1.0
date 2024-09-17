@@ -53,7 +53,7 @@ function NotFound() {
                       onClick={handleGoBack}
                       className="cursor-pointer text-yellow-300 text-lg hover:underline focus:border-none"
                     >
-                      goback
+                      {` goback`}
                     </span>
                     '
                   </span>

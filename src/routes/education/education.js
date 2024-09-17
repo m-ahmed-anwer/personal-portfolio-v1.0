@@ -6,30 +6,30 @@ function Education() {
     {
       institution: "Hizbullah Central College",
       degree: "Secondary Education",
-      year: "2010-2019",
+      year: "2020",
       location: "Kurunegala, Sri Lanka",
       honors: "O/L *A's - Maths, ICT, English",
     },
     {
       institution: "SLIIT City Uni",
       degree: "Foundation Certification in Information Technology",
-      year: "2021 Jan- Dec",
+      year: "2021",
       location: "Colombo, Sri Lanka",
       honors: "Passed in Grade A",
     },
     {
       institution: "SLIIT City Uni",
       degree: "Higher National Diploma in Information Technology",
-      year: "2022 Jan - 2023 Dec",
+      year: "2023",
       location: "Colombo, Sri Lanka",
       honors: "CGPA : 3.5/4.0",
     },
     {
       institution: "University of Bedforshire || SLIIT",
       degree: "BSc(Hons) in Computer Science and Software Engineering",
-      year: "2024 Jan - 2025 Jan",
+      year: "2025 Jan",
       location: "Colombo, Sri Lanka",
-      honors: "Reading",
+      honors: "(Reading)",
     },
   ];
   return (

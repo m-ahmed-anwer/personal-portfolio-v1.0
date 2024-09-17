@@ -127,17 +127,6 @@ function Navigation(props) {
                 </span>
               </Link>
             </li>
-            <li className="Menu-list-item" data-offset={15}>
-              <Link to="/blogs" onClick={handleToggle} className="link">
-                Blogs
-                <span className="Mask">
-                  <span>Blogs</span>
-                </span>
-                <span className="Mask">
-                  <span>Blogs</span>
-                </span>
-              </Link>
-            </li>
           </ul>
         </div>
       </nav>
