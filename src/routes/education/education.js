@@ -22,7 +22,7 @@ function Education() {
       degree: "Higher National Diploma in Information Technology",
       year: "2023",
       location: "Colombo, Sri Lanka",
-      honors: "CGPA : 3.5/4.0",
+      honors: "CGPA : 3.72/4.0",
     },
     {
       institution: "University of Bedforshire || SLIIT",
