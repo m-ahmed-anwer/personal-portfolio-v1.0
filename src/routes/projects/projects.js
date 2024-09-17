@@ -8,7 +8,7 @@ function Projects() {
       id: 1,
       name: "DotCall: A Mobile Application Enhancing Communication",
       description:
-        "Developed a Web application that showcasing and publishing pre-owned cars 🏁",
+        "Developed a VoIP app that provides post-call transcription, topic-based summaries, and sharing options. Developed for iOS and Android with a backend using Node.js, Django, Firebase, and MongoDB",
       technologiesUsed: `
         'IOS Swift',
         'Android Java',
@@ -31,7 +31,7 @@ function Projects() {
       id: 2,
       name: "Lanka Hardware Hub",
       description:
-        "Developed a Web application that showcasing and publishing pre-owned cars 🏁",
+        "Developed a digital solution for a local hardware store in Kandy, combining a customer mobile app and an admin panel to improve sales, inventory tracking, and client engagement. Developed with Node.js, React Native, React.js, and MongoDB",
       technologiesUsed: `
         'React Native',
         'React.js',
@@ -47,7 +47,7 @@ function Projects() {
       id: 3,
       name: "Tomato Mystery Challenge",
       description:
-        "Developed a Web application that showcasing and publishing pre-owned cars 🏁",
+        "Developed a mobile math game built with React Native, featuring life management, high scores, and leaderboards. It uses React Native, Express JS, Node JS, MongoDB, and integrates Dr. Marc Conrad's tomato API, with Nodemailer for score emails.",
       technologiesUsed: `
         'React Native',
         'javaScript',
@@ -60,7 +60,7 @@ function Projects() {
         "https://github.com/m-ahmed-anwer/tomato-challenge",
         "https://github.com/m-ahmed-anwer/tomato-challenge-backend",
       ],
-      dateOfCompletion: "Feb 2023",
+      dateOfCompletion: "May 2024",
     },
     {
       id: 4,
