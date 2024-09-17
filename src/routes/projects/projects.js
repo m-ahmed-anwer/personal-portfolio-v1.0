@@ -156,13 +156,13 @@ function Projects() {
       <div className="w-full">
         <div className="">
           <div className="w-4/4 flex items-center justify-center my-20 ">
-            <div className="rounded-lg shadow-xl bg-gray-900 text-white md:w-3/4 mx-4 ">
+            <div className="rounded-lg shadow-xl bg-gray-900 text-white md:w-3/4 mx-4  ">
               <div className="border-b border-gray-800 px-8 py-3">
                 <div className="inline-block w-3 h-3 mr-2 rounded-full bg-red-500"></div>
                 <div className="inline-block w-3 h-3 mr-2 rounded-full bg-yellow-300"></div>
                 <div className="inline-block w-3 h-3 mr-2 rounded-full bg-green-400"></div>
               </div>
-              <div className="px-8 py-6 ">
+              <div className="px-8 py-6  ">
                 <p>
                   <em className="text-blue-400">const</em>{" "}
                   <span className="text-green-400">myProjects</span>{" "}
@@ -173,21 +173,24 @@ function Projects() {
                   &nbsp;&nbsp;<span className="text-pink-500">return</span>{" "}
                   {"{"}
                 </p>
-                <div className="my-2">
-                  &nbsp;&nbsp;&nbsp;&nbsp;project:{" ["}
+                <div className="my-2 text-sm">
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;project:{" ["}
                   {project.map((index) => {
                     return (
                       <span key={index.id}>
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{"{"}</p>
                         <p>
-                          &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name:
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{"{"}
+                        </p>
+                        <p>
+                          &nbsp;&nbsp;&nbsp;&nbsp;
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name:
                           <span className="text-yellow-300">
                             {`'${index.name}'`}
                           </span>
                           ,
                         </p>
                         <p>
-                          &nbsp;&nbsp;
+                          &nbsp;&nbsp; &nbsp; &nbsp;
                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;description:
                           <span className="text-yellow-300">
                             {`'${index.description}'`}
@@ -196,7 +199,7 @@ function Projects() {
                         </p>
 
                         <p>
-                          &nbsp;&nbsp;
+                          &nbsp;&nbsp; &nbsp; &nbsp;
                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;technologiesUsed:
                           {" ["}
                           <span className="text-yellow-300">
@@ -206,7 +209,7 @@ function Projects() {
                         </p>
                         {index.demoLink && (
                           <p>
-                            &nbsp;&nbsp;
+                            &nbsp;&nbsp; &nbsp; &nbsp;
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;demoLink:
                             <Link to={index.demoLink} target="_blank">
                               <span className="cursor-pointer  hover:underline focus:border-none text-yellow-300">
@@ -218,7 +221,7 @@ function Projects() {
                         )}
 
                         <p>
-                          &nbsp;&nbsp;
+                          &nbsp;&nbsp; &nbsp; &nbsp;
                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;githubRepository:
                           {index.githubRepository.length > 0 ? (
                             index.githubRepository.map((repo, i) => (
@@ -237,18 +240,20 @@ function Projects() {
                         </p>
 
                         <p>
-                          &nbsp;&nbsp;
+                          &nbsp;&nbsp; &nbsp; &nbsp;
                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dateOfCompletion:
                           <span className="text-yellow-300">
                             {`'${index.dateOfCompletion}'`}
                           </span>
                           ,
                         </p>
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{"},"}</p>
+                        <p>
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{"},"}
+                        </p>
                       </span>
                     );
                   })}
-                  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{"]"}</p>
+                  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{"]"}</p>
                 </div>
                 <p>&nbsp;&nbsp;{"}"}</p>
                 <p>{"}"}</p>
