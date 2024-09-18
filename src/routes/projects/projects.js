@@ -66,14 +66,13 @@ function Projects() {
       id: 4,
       name: "Car Service Management System",
       description:
-        "Crafted a comprehensive full-stack web application using ReactJS and NodeJS, enabling users to schedule car services seamlessly.",
+        "Crafted a comprehensive full-stack web application using ReactJS and Springboot, enabling users to schedule car services seamlessly.",
       technologiesUsed: `
         'React.js',
         'Springboot',
         'MYSQL',
         'Tailwind',
-        'Node.js',
-        'Axios',
+        
       `,
 
       demoLink: "https://autoprocare.netlify.app/",
