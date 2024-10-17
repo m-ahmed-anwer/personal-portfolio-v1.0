@@ -47,13 +47,13 @@ function AboutMe() {
               <p className="my-2">
                 &nbsp;&nbsp;&nbsp;&nbsp;bio:{" "}
                 <span className="text-yellow-300 ">
-                  'Enthusiastic final-year software engineering student with a
-                  solid foundation in both theoretical principles and practical
-                  implementations. Skilled in numerous programming languages and
-                  committed to providing valuable insights and solutions to
-                  real-world software challenges. Excited to apply academic
-                  knowledge and hands-on experience in a professional
-                  environment.'
+                  'Enthusiastic computer science and software engineering
+                  graduate with a solid foundation in both theoretical
+                  principles and practical implementations. Skilled in numerous
+                  programming languages and committed to providing valuable
+                  insights and solutions to real-world software challenges.
+                  Excited to apply academic knowledge and hands-on experience in
+                  a professional environment.'
                 </span>
                 ,
               </p>
