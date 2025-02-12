@@ -151,10 +151,10 @@ function AboutMe() {
                 <span className="text-yellow-300 ">
                   '
                   <Link
-                    to="https://ahmedanwer-dev.netlify.app/"
+                    to="https://ahmedanwer.vercel.app/"
                     className="text-yellow-300  hover:underline focus:border-none"
                   >
-                    https://ahmedanwer-dev.netlify.app/
+                    https://ahmedanwer.vercel.app/
                   </Link>
                   '
                 </span>
